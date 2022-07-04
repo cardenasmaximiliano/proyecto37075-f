@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css';
-import ItemListCount from '../ItemListCount';
+import ItemCount from '../ItemCount';
 
 const index = ({precio, nombre, img}) => {
 
@@ -12,9 +12,9 @@ const index = ({precio, nombre, img}) => {
         <h3>{nombre}</h3>
         <p>precio: {precio}</p>
         <div>
-           <ItemListCount initial ={1} stock={10} />
+           <ItemCount initial ={1} stock={10} />
         </div>
-            <p className="botton-card"><a href=" #">Comprar</a></p>
+      
     </div>
   )
 }

@@ -4,10 +4,10 @@ import './App.css';
 import CartWidget from './components/header/Cartwidget';
 import NavBar from './components/header/NavBar';
 import Banner from './components/main/Banner';
-import ItemListContainer from './container/ItemListContainer';
-import auri1 from './container/ItemListContainer/img/auri1.png';
-import auri2 from './container/ItemListContainer/img/auri2.png';
-import auri3 from './container/ItemListContainer/img/auri3.jpg';
+import ItemListContainer from './components/main/ItemListContainer';
+import auri1 from './components/main/ItemListContainer/img/auri1.png';
+import auri2 from './components/main/ItemListContainer/img/auri2.png';
+import auri3 from './components/main/ItemListContainer/img/auri3.jpg';
 
   function App() {
     return (

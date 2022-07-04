@@ -1,0 +1,25 @@
+.card{
+    width: 204px;
+    background: #ffffff80;
+    box-shadow: 0 8px 32px 0 #1f26875e;
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid #ffffff2e;
+}
+.card img{
+    border-radius: 20px;
+}
+h3{
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 20px;
+}
+.botton-card{
+    text-align: center;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: rgba(173, 216, 230, 0.401);
+    border: 1 solid rgba(173, 216, 230);
+    border-radius: 10px;
+}

@@ -1,0 +1,45 @@
+.banner{
+    background-image: url(./banner.jpg);
+    height: 780px;
+    display: grid;
+    width: 100%;
+    grid-template: auto auto auto / auto auto auto;
+    justify-content: center;
+}
+.principal{
+   grid-column: 2 / 4;
+   grid-row: 2;
+   font-size: 40px;
+   align-self: center; 
+   display: flex
+}
+.titulo{
+    background-color: rgba(100, 100, 100, 0.465);
+    padding: 40px;
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+    margin: 0;
+}
+.titulo p{
+    margin: 0;
+    padding: 0;
+}
+.serch{
+    padding: 0px 10px;
+    align-self: center;
+}
+.serch input{
+    width: 500px;
+    padding: 5px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    background-color: rgba(64, 63, 63, 0.327);
+    color: black;
+}
+.serch input::placeholder{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
